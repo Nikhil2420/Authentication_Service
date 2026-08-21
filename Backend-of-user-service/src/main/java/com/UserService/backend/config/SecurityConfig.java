@@ -1,7 +1,7 @@
 package com.UserService.backend.config;
 
-import com.UserService.backend.filter.JwtFilter;
-import com.UserService.backend.security.CustomUserDetailsService;
+import com.UserService.backend.security.filter.JwtFilter;
+import com.UserService.backend.security.service.CustomUserDetailsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

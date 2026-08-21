@@ -1,4 +1,4 @@
-package com.UserService.backend.security;
+package com.UserService.backend.security.utility;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;

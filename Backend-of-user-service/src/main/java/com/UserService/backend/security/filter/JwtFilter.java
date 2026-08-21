@@ -1,7 +1,7 @@
-package com.UserService.backend.filter;
+package com.UserService.backend.security.filter;
 
-import com.UserService.backend.security.CustomUserDetailsService;
-import com.UserService.backend.security.JwtUtil;
+import com.UserService.backend.security.service.CustomUserDetailsService;
+import com.UserService.backend.security.utility.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

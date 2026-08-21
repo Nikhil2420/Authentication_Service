@@ -1,4 +1,4 @@
-package com.UserService.backend.security;
+package com.UserService.backend.security.service;
 
 import com.UserService.backend.entity.User;
 import com.UserService.backend.repository.UserRepository;
